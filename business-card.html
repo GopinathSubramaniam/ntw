@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Business Card</title>
+    <meta charset="utf-8">
+    <meta name="description"
+          content="Share business info, images and videos with your customer. Advertise your business using this business card.">
+    <meta name="keywords" content="angular, javascript, backbonejs, nodejs, java, spring, php, .NET, website, mobile, web, applications, nathan,
+  tech, world, iot, projects, software, business, college, college projects, erp, iot, internet of things, websites ecommerce, what iot, 
+  build websites, iot applications, iot devices, iot based projects, what internet of things, iot technology, apps for internet, iot sensors, 
+  iot platform, security iot, iot industry, projects software, websites cms, iot internet of things, iot solutions, internet of things applications,
+  iot cloud, future of iot, erp applications, build a mobile app, devices of internet">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="nathan tech world">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
+    <link rel="stylesheet" href="build/bundle.css">
+
+</head>
+
+<body>
+
+<div class="site-wrap">
+
+    <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="fas fa-times js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <header class="site-navbar py-4" role="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h1 class="site-logo">
+                        <a href="home" class="h2">
+                            <span class="d-none d-md-block d-lg-block">Nathan Tech World<span
+                                    class="text-primary">.</span></span>
+                            <span class="d-block d-md-none d-lg-none ">NTW<span class="text-primary">.</span></span>
+                        </a>
+                    </h1>
+                </div>
+                <div class="col">
+                    <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
+                        <div class="d-block d-lg-none ml-md-0 mr-auto"><a href="#"
+                                                                          class="site-menu-toggle js-menu-toggle text-black"><span
+                                class="fas fa-bars h3"></span></a></div>
+                        <ul class="site-menu js-clone-nav d-none d-lg-block" style="padding: 0px;">
+                            <li>
+                                <a href="home"><em class="fas fa-home"></em> Home</a>
+                            </li>
+                            <li><a href="services"><em class="fas fa-server"></em> Services</a></li>
+                            <li><a href="about"><em class="fas fa-info-circle"></em> About</a></li>
+                            <li><a href="contact"><em class="fas fa-mobile-alt"></em> Contact</a></li>
+                            <li class="has-children active">
+                                <a href="prods"><em class="fas fa-list"></em> Products</a>
+                                <ul class="dropdown">
+                                    <li><a href="business-card"><i class="fas fa-globe"></i> Business Card</a></li>
+                                    <li><a href="chat-bot"><i class="fas fa-robot"></i> Chat Bot</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url(resource/images/bg-bcard.jpg);"
+         data-aos="fade" data-stellar-background-ratio="0.2">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <h1 class="text-white"><i class="fas fa-globe"></i> Business Card</h1>
+                    <button class="btn btn-primary" onclick="openContactModal();">Contact Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-4">
+                    <p class="font-red">HOW IT WORKS</p>
+                    <h2 class="display-5 text-black">3 Easy Steps To Get Customers</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row pt-2 bg-blue">
+                <div class="col-md-12 col-lg-4 text-center mb-4 pt-4">
+                    <i class="fas fa-globe fa-9x"></i>
+                    <h2 class="font-weight-light mb-4">Create Card In 2 Minutes</h2>
+                </div>
+                <div class="col-md-12 col-lg-4 text-center mb-4 pt-4">
+                    <i class="fas fa-share-alt-square fa-9x"></i>
+                    <h2 class="font-weight-light mb-4">Share Everywhere</h2>
+                </div>
+                <div class="col-md-12 col-lg-4 text-center mb-4 pt-4">
+                    <i class="fas fa-users fa-9x"></i>
+                    <h2 class="font-weight-light mb-4">Get Customers</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-4">
+                    <p class="font-red">PRICING</p>
+                    <h2 class="display-5 text-black">Improve Business By Spending Your Coffee Cost</h2>
+                </div>
+            </div>
+            <div class="row pt-2 d-flex justify-content-center">
+                <div class="col-md-4">
+                    <table class="table table-striped table-sm" aria-describedby="Pricing Table">
+                        <thead class="thead-dark">
+                        <tr class="text-center">
+                            <th id="header"
+                                style="height: 70px; vertical-align: middle; font-size: 2rem; padding-left: 1rem"><i
+                                    class="fas fa-rupee-sign"></i> 499/year
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Use As Website & Business Card</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Share In Social & Anywhere</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Upload Logo</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Upload Max 20 Images</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Attach Unlimited Video Links</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Payment Section</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Contact Form Included</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Get Enquiries In Mailbox</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Visitors Count</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Visitors City, State and Country</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Visitors Locations In Google Map</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Contact Card Owner Directly</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Open Address In Google Map</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Admin Panel To Manage Card</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-3"><i class="fas fa-check"></i> Create Unlimited Cards</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section pt-0">
+        <div>
+            <div class="col-md-12 text-center mb-4">
+                <p class="font-red">FEATURES</p>
+                <h2 class="display-5 text-black">Improve Business By Spending Your Coffee Cost</h2>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row features justify-content-center">
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-globe fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Website + Business Card</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-phone-alt fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Click To Call</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-map-marked-alt fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Business Location</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fab fa-whatsapp-square fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Contact Quickly</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-share-alt-square fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Share With Anyone</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fab fa-facebook fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Social Share</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-upload fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Upload Images</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-rupee-sign fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Payment Section</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-address-card fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Enquiry Form</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-envelope fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Enquiries In Mailbox</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-eye fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Visitors Count</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-map-marker-alt fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Visitors Location</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-info-circle fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Visitors Detail</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-photo-video fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Video Gallery</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-images fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Image Gallery</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-user-shield fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Admin Panel</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fab fa-themeisle fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Themes</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-list-ol fa-4x"></i>
+                            <h6 class="card-title mt-2 text-muted">Unlimitted Cards</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section pt-0">
+        <div>
+            <div class="col-md-12 text-center mb-4">
+                <p class="font-red">DESIGNS</p>
+                <h2 class="display-5 text-black">Select Your Fancy Designs</h2>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row features justify-content-center">
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <h5 class="card-title mt-2 text-muted">Professional Blue</h5>
+                            <img src="cards/images/theme/blue.PNG" alt="Blue" class="img-fluid"/>
+                            <button class="btn btn-primary p-2 m-2" onclick="openDemoBusinessCard(`P-BLUE`)">Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <h5 class="card-title mt-2 text-muted">Professional Aqua</h5>
+                            <img src="cards/images/theme/aqua.PNG" alt="Blue" class="img-fluid"/>
+                            <button class="btn btn-primary p-2 m-2" onclick="openDemoBusinessCard(`P-AQUA`)">Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <h5 class="card-title mt-2 text-muted">Business Light</h5>
+                            <img src="cards/images/theme/business-light.PNG" alt="Blue" class="img-fluid"/>
+                            <button class="btn btn-primary p-2 m-2" onclick="openDemoBusinessCard(`B-LIGHT`)">Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <h5 class="card-title mt-2 text-muted">Business Dark</h5>
+                            <img src="cards/images/theme/business-dark.PNG" alt="Blue" class="img-fluid"/>
+                            <button class="btn btn-primary p-2 m-2" onclick="openDemoBusinessCard(`B-DARK`)">Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <h5 class="card-title mt-2 text-muted">Cool Light</h5>
+                            <img src="cards/images/theme/cool-light.PNG" alt="Blue" class="img-fluid"/>
+                            <button class="btn btn-primary p-2 m-2" onclick="openDemoBusinessCard(`C-LIGHT`)">Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <h5 class="card-title mt-2 text-muted">Cool Green</h5>
+                            <img src="cards/images/theme/cool-green.PNG" alt="Blue" class="img-fluid"/>
+                            <button class="btn btn-primary p-2 m-2" onclick="openDemoBusinessCard(`C-GREEN`)">Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <h5 class="card-title mt-2 text-muted">Cool Dark</h5>
+                            <img src="cards/images/theme/cool-dark.PNG" alt="Blue" class="img-fluid"/>
+                            <button class="btn btn-primary p-2 m-2" onclick="openDemoBusinessCard(`C-DARK`)">Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center mb-3">
+                    <div class="card border">
+                        <div class="card-body">
+                            <i class="fas fa-layer-group fa-6x"></i>
+                            <h5 class="card-title mt-2 text-muted">More Business Cards Designs Yet To Come</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-blocks-cover overlay inner-page-cover"
+         style="background-image: url(resource/images/background_1.jpg);" data-stellar-background-ratio="0.2">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <h2>Work Ethics</h2>
+                    <p class="mb-5">We follow a professional work ethics that helps build trust and a decent business
+                        relationship between customers and the company.</p>
+                    <a href="about" class="btn btn-primary" type="button" id="button-addon2">Read Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 mx-auto">
+                    <h3>Navigation</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="services">Services</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 mx-auto">
+                    <h3>Contact Us</h3>
+                    <p><em class="fas fa-envelope"></em> info@ntwor.com</p>
+                    <p><em class="fas fa-mobile-alt"></em> +91-96377-52262</p>
+                </div>
+            </div>
+
+            <div class="row pt-5 mt-5 text-center">
+                <div class="col-md-12">
+                    <p>
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script>
+                        All rights reserved by NTW
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="resource/js/jquery-3.3.1.min.js"></script>
+<script src="resource/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="resource/js/jquery-ui.js"></script>
+
+<script src="resource/socialshare/index.js"></script>
+<script src="products/chat/qa-chat/qa-chat.js" data-chat="ntw"></script>
+<script src="build/bundle.js"></script>
+
+</body>
+
+</html>

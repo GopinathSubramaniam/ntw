@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Removing the .php(i.e. index.php => index)
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule (.*) $1.php [L]
+
+# Removing the .html(i.e. index.html => index)
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+#RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) https://ntwor.com%{REQUEST_URI}
+
+Options -Indexes

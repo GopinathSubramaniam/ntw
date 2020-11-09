@@ -1,0 +1,6 @@
+.history/
+.vs/
+node_modules/
+.vscode/
+/api/images/
+.idea/
